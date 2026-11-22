@@ -1,0 +1,12 @@
+[package]
+name = "swjobs_today"
+version = "0.1.0"
+edition = "2024"
+autobins = false
+
+[[bin]]
+name = "sjt"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.6.9", features = ["derive"] }
