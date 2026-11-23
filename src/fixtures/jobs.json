@@ -1,0 +1,58 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "source": "himalayas",
+      "title": "Staff Software Engineer",
+      "company": "Example Labs",
+      "url": "https://example.com/jobs/1",
+      "age_hours": 2,
+      "skills": ["Rust", "PostgreSQL", "AWS"]
+    },
+    {
+      "id": 2,
+      "source": "remotive",
+      "title": "Backend Engineer",
+      "company": "Cloud Co",
+      "url": "https://example.com/jobs/2",
+      "age_hours": 6,
+      "skills": ["Go", "Kubernetes"]
+    },
+    {
+      "id": 3,
+      "source": "himalayas",
+      "title": "Registered Nurse",
+      "company": "City Hospital",
+      "url": "https://example.com/jobs/3",
+      "age_hours": 1,
+      "skills": ["Patient Care", "EMR"]
+    },
+    {
+      "id": 4,
+      "source": "remotive",
+      "title": "Senior Rust Developer",
+      "company": "Systems Inc",
+      "url": "https://example.com/jobs/4",
+      "age_hours": 48,
+      "skills": ["Rust", "Linux"]
+    },
+    {
+      "id": 5,
+      "source": "fixture",
+      "title": "Marketing Manager",
+      "company": "Ad Agency",
+      "url": "https://example.com/jobs/5",
+      "age_hours": 72,
+      "skills": ["SEO", "Content"]
+    },
+    {
+      "id": 6,
+      "source": "himalayas",
+      "title": "Software Engineer",
+      "company": "Future Post",
+      "url": "https://example.com/jobs/6",
+      "age_hours": -3,
+      "skills": ["Rust", "TypeScript"]
+    }
+  ]
+}

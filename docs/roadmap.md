@@ -75,17 +75,17 @@ Job search noise is the problem — stale listings, low-trust boards, and repeat
 
 - [x] `cargo new swjobs_today`
 - [x] Minimal CLI entry (`today`, `version` / `--help`)
-- [ ] Root README pointing at docs
+- [x] Root README pointing at docs
 
 ### Phase 1 — Profile + fake ranked feed
 
 **Outcome:** You can set profile skills and see a ranked list from **hardcoded/fixture** jobs (no network).
 
-- [ ] `Profile` model + load/save JSON
-- [ ] `Job` model (`id`, source, title, company, url, posted_at, tags/skills)
-- [ ] Tech filter + freshness check + score function
-- [ ] Commands: `profile show|set`, `today`
-- [ ] Unit tests for score / filter / expiry
+- [x] `Profile` model + load/save JSON
+- [x] `Job` model (`id`, source, title, company, url, posted_at, tags/skills)
+- [x] Tech filter + freshness check + score function
+- [x] Commands: `profile show|set`, `today`
+- [x] Unit tests for score / filter / expiry
 
 ### Phase 2 — First real source
 
