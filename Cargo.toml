@@ -9,4 +9,5 @@ name = "sjt"
 path = "src/main.rs"
 
 [dependencies]
+chrono = "0.4.45"
 clap = { version = "4.6.9", features = ["derive"] }

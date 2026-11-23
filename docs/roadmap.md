@@ -7,9 +7,11 @@ CLI for **software jobs you can act on today**: compliant sources only, tech rol
 ## Intentions
 
 ### Why this exists
+
 Job search noise is the problem — stale listings, low-trust boards, and repeating the same form answers. Spreadsheet-style trackers add stress without leverage. This tool should **surface today’s worth-applying tech roles** and **remember answers** so each application gets faster.
 
 ### Product principles
+
 1. **Clarity over cleverness** — name and UX say what it does (`swjobs_today`).
 2. **Compliance-first sources** — only platforms with official APIs/MCPs (or explicit partner terms). No LinkedIn/Indeed scraping; no ToS cat-and-mouse as a feature.
 3. **Tech roles only** — title/keyword/stack filters keep the feed relevant and the DB small.
@@ -19,6 +21,7 @@ Job search noise is the problem — stale listings, low-trust boards, and repeat
 7. **Learning project with real use** — ship vertical slices you run yourself; deepen engineering habits (types, tests, adapters, docs) without boiling the ocean.
 
 ### Non-goals (v1–v2)
+
 - Mass auto-apply / stealth browsers / CAPTCHA bypass
 - Screenshot/vision as the primary form reader
 - Full multi-ATS SPA automation on day one
@@ -56,6 +59,7 @@ Job search noise is the problem — stale listings, low-trust boards, and repeat
 | N6 | Keep the dream backlog visible; do not block P0 on P2+ |
 
 ### Constraints
+
 - Language: Rust (edition as in `Cargo.toml`)
 - Interface: CLI first (`clap` or equivalent when ready)
 - Storage: start with JSON files; SQLite only if pain appears
@@ -66,13 +70,15 @@ Job search noise is the problem — stale listings, low-trust boards, and repeat
 ## Plan (phases)
 
 ### Phase 0 — Skeleton you can run
+
 **Outcome:** `cargo run` prints help / a placeholder `today` message; repo has this roadmap.
 
 - [x] `cargo new swjobs_today`
-- [ ] Minimal CLI entry (`today`, `version` / `--help`)
+- [x] Minimal CLI entry (`today`, `version` / `--help`)
 - [ ] Root README pointing at docs
 
 ### Phase 1 — Profile + fake ranked feed
+
 **Outcome:** You can set profile skills and see a ranked list from **hardcoded/fixture** jobs (no network).
 
 - [ ] `Profile` model + load/save JSON
@@ -82,6 +88,7 @@ Job search noise is the problem — stale listings, low-trust boards, and repeat
 - [ ] Unit tests for score / filter / expiry
 
 ### Phase 2 — First real source
+
 **Outcome:** `sync` pulls from one compliant API; `today` uses stored jobs within 24h.
 
 - [ ] `Source` trait + one adapter
@@ -90,6 +97,7 @@ Job search noise is the problem — stale listings, low-trust boards, and repeat
 - [ ] Short ADR: why this source, rate limits, tech filter rules
 
 ### Phase 3 — Answer brain
+
 **Outcome:** Repeated application questions need fewer keystrokes.
 
 - [ ] Canonical profile fields + `custom_answers`
@@ -98,6 +106,7 @@ Job search noise is the problem — stale listings, low-trust boards, and repeat
 - [ ] No browser automation required
 
 ### Phase 4 — Engineering hardening
+
 **Outcome:** Looks like software you’d show in an interview, not only a script.
 
 - [ ] Split `lib` + `bin` if main grows
@@ -106,10 +115,11 @@ Job search noise is the problem — stale listings, low-trust boards, and repeat
 - [ ] `learnings.md` / ADRs as decisions appear
 
 ### Phase 5 — Stretch (only after daily use)
+
 - Second source + trust weights  
 - Throttle dashboard / apply queue (assisted)  
 - MCP wrapper  
-- One ATS-assisted path (AX/DOM) — still not vision-first  
+- One ATS-assisted path (AX/DOM) — still not vision-first
 
 ---
 
@@ -129,7 +139,7 @@ Job search noise is the problem — stale listings, low-trust boards, and repeat
 - Guaranteed auto-apply / mass submit  
 - LinkedIn, Indeed, and any non-compliant scrape  
 - Mobile app / heavy UI  
-- Multi-tenant SaaS and growth metrics before solo daily use  
+- Multi-tenant SaaS and growth metrics before solo daily use
 
 ---
 

@@ -1,4 +1,6 @@
 mod cli;
+mod job;
+mod profile;
 
 use crate::cli::{Cli, Commands};
 use clap::Parser;
