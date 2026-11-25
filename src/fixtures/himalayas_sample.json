@@ -1,0 +1,210 @@
+{
+    "comments": "21/08/2026: Cursor pagination is now available and is the preferred way to page through the feed. Pass the nextCursor value from each response back as ?cursor=. It is faster than offset and will never return the same job twice. The offset parameter is deprecated and will be removed in a future release. 13/03/2026: The API has been updated to include the companySlug field in the response.",
+    "updatedAt": 1795607799,
+    "offset": 0,
+    "limit": 5,
+    "totalCount": 115696,
+    "nextCursor": "MjAyNi0xMS0yNVQxMTo1NTo0MC45Mjc5MjVafDI1ODE0MDk",
+    "jobs": [
+        {
+            "title": "Director, Revenue Management - Corporate - US",
+            "excerpt": "Company: US6469 Sysco Payroll, Division of Sysco Resources Services, LLCSales Territory: NoneZip Code: 77077Travel Percentage: 0Compensation Range: $0.",
+            "companyName": "Sysco",
+            "companySlug": "sysco",
+            "companyLogo": "https://cdn-images.himalayas.app/0f7zpgnwd8kq35ycyuo6b28qtwrz",
+            "employmentType": "Full Time",
+            "minSalary": null,
+            "maxSalary": null,
+            "salaryPeriod": "annual",
+            "seniority": [
+                "Director"
+            ],
+            "currency": null,
+            "locationRestrictions": [
+                "United States"
+            ],
+            "timezoneRestrictions": [
+                -10,
+                -9,
+                -8,
+                -7,
+                -6,
+                -5,
+                14
+            ],
+            "categories": [
+                "Director-Of-Revenue-Management",
+                "Revenue-Management-Director",
+                "Director-Of-Pricing-Strategy",
+                "Director-of-Pricing-Analytics"
+            ],
+            "parentCategories": [],
+            "description": "<h3>Company:</h3>US6469 <a href=\"https://himalayas.app/companies/sysco\">Sysco</a> Payroll, Division of <a href=\"https://himalayas.app/companies/sysco\">Sysco</a> Resources Services, LLC<h3>Sales Territory:</h3>None<h3>Zip Code:</h3>77077<h3>Travel Percentage:</h3>0<h3>Compensation Range:</h3>$0.00 - $0.00<p>The compensation range provided is in compliance with state specific laws.  Factors that may be used to determine your actual rate of pay include your specific skills, years of experience and other factors.  </p>You may be eligible to participate in the Company's Incentive Plan.<h3>BENEFITS INFORMATION:</h3>For information on <a href=\"https://himalayas.app/companies/sysco\">Sysco</a>’s Benefits, please visit <h3>Job Summary:</h3><p>This role will lead planning, development, and execution of pricing strategies, including 1) evolve the capability to go further with machine based learning and optimization, 2) evolve the pricing  tools including exception process and performance management into price decisions, 3) lead the evolve the TRS pricing strategy into an architecture to support sales growth through intentional category/cuisine pricing, 4) manage total company financial goals through week to week pricing decisions, 5) support execution and expansion of analytics based pricing in US local business (both street and local contract customers), and other optimization of financial elements of the business This role will work closely with the Sales Strategy/Execution teams, field Revenue Management team, Merchandising, and key cross functional partners such as the Enterprise Analytics team, Finance to drive alignment, execution and to collect feedback.</p><br><h3>Duties and Responsibilities:</h3><ul>\n<li>Support Senior Director, Revenue Management by leading the development &amp; implementation of pricing strategy with a focus on TRS growth – define, design, and implement growth strategic shift from manual week to week pricing to centralized technology driven pricing at scale including category/cuisine pricing strategy and machine learning driven optimization of “tail items.” This includes but is not limited to creating the category / cuisine pricing strategy, defining the path to test into the strategy, and automating the strategy over time</li>\n<li>Build and generate performance insights and processes that enable data led pricing decisions</li>\n<li>Approve weekly pricing changes across multiple business centers and evaluate margin impact to develop pricing optimization recommendations</li>\n<li>Proactively identify pricing opportunities and risks, develop recommendations, and implement solutions with cross-functional teams and field leaders</li>\n<li>Contribute to Revenue Management roadmap that elevates pricing quality, evolves analytical capabilities, and drives profitable growth across categories, cuisine types, brands, etc.</li>\n<li>Collaborate with enterprise analytics teams to establish A&amp;B testing scenarios, of front-end usability changes, to generate insight in how to further optimize pricing performance</li>\n<li>Lead leadership and key stakeholder alignment on pricing strategies and deployment tactics</li>\n<li>Develop strong working relationships with the field organization to capture input and feedback on solutions and opportunities. Lead, Manage, Coach &amp; Develop team</li>\n</ul><br><h3>Education Required</h3><ul><li>Bachelor’s degree in Finance, Economics, Statistics, engineering or another analytical field of study</li></ul><br><h3>Education Preferred:</h3><ul><li>Bachelor’s Degree in a quantitative field or computer programing, MBA or equivalent advanced degree</li></ul><br><h3>Experience Required:</h3><ul><li>8 -10 years of relevant experience in e-Commerce Merchandising and execution of pricing strategy or a combination of relevant experiences specific to food service (e.g., finance, revenue management, sales, etc.) domestically and internationally</li></ul><br><h3>Experience Preferred:</h3><ul><li>Transformation of pricing strategy inclusive of a shift to technology driven quantitative optimization of pricing strategies</li></ul><br><h3>Skills and Abilities:</h3><ul>\n<li>Skill of analytics in excel, tableau, and other relevant tools, depending on the exact role within the team additional technical skills including detailed knowledge of SQL, Python, and other similar analytical tools. Skill of development of visual communications to influence executive decision making based on quantitative learnings. Strong ability to communicate complex analytical recommendations at the concept level to drive executive team alignment and decisions on critical elements of pricing strategy. Skill of cross functional collaboration as pricing recommendations impact: sales, finance, category management, customer growth and many other functions within <a href=\"https://himalayas.app/companies/sysco\">Sysco</a> Foods</li>\n<li>Experience with A/B testing solutions such as Optimizely</li>\n<li>Exceptional leadership skills to build bridges and lead in cross-functional teams to deliver insights</li>\n<li>Exceptional analytical skills to identify and quantify new opportunities and gaps and the ability to synthesize and analyze large sets of data to yield actionable findings</li>\n<li>Proven track record for driving business results through strong leadership, communication, effective internal and external relationships</li>\n<li>Extensive knowledge of ecommerce data collection technologies, key trends and framework</li>\n<li>Demonstrated ability to learn new platforms and technology quickly</li>\n<li>Excellent written and verbal communication skills to be able to tell the data story</li>\n</ul><br><p>​<b>Physical Demands:</b></p><ul><li>Reasonable accommodations will be made to enable individuals with disabilities to perform the essential functions of this job.</li></ul><h3>OVERVIEW:</h3><p><a href=\"https://himalayas.app/companies/sysco\">Sysco</a> is the global leader in foodservice distribution. With over 71,000 colleagues and a fleet of over 13,000 vehicles, <a href=\"https://himalayas.app/companies/sysco\">Sysco</a> operates approximately 333 distribution facilities worldwide and serves more than 700,000 customer locations.</p><p>We offer our colleagues the opportunity to grow personally and professionally, to contribute to the success of a dynamic organization, and to serve others in a manner that exceeds their expectations. We’re looking for talented, hard-working individuals to join our team. Come grow with us and let us show you why <a href=\"https://himalayas.app/companies/sysco\">Sysco</a> is at the heart of food and service.</p><br><h3>AFFIRMATIVE ACTION STATEMENT:</h3><p>Visa Sponsorship: <a href=\"https://himalayas.app/companies/sysco\">Sysco</a> is unable to provide employment visa sponsorship for this position, now or in the future. Candidates must be authorized to work in the United States without requiring current or future sponsorship.</p><br><p>We are proud to be an Equal Opportunity and Affirmative Action employer, and consider qualified applicants without regard to race, color, creed, religion, ancestry, national origin, sex, sexual orientation, gender identity, age, disability, veteran status or any other protected factor under federal, state or local law.</p><br><p>This opportunity is available through <a href=\"https://himalayas.app/companies/sysco\">Sysco</a> Corporation, its subsidiaries and affiliates.</p><div><div><div><div><div><div><div><h3>Anticipated Close Date:</h3></div></div></div></div></div></div></div><div><div><div><div><div><div><div><p>The deadline may be extended in good faith based on business needs.  The posting will be updated when the deadline is extended.</p></div></div></div></div></div></div></div><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+            "pubDate": 1795607799,
+            "expiryDate": 1800791798,
+            "applicationLink": "https://himalayas.app/companies/sysco/jobs/director-revenue-management-corporate-us?utm_source=api",
+            "guid": "https://himalayas.app/companies/sysco/jobs/director-revenue-management-corporate-us"
+        },
+        {
+            "title": "Senior Account Director",
+            "excerpt": "About Avalere Health United by one profound purpose: to reach EVERY PATIENT POSSIBLE.",
+            "companyName": "Avalere Health",
+            "companySlug": "avalere-health",
+            "companyLogo": "https://cdn-images.himalayas.app/iencwa1yxwonk3miop92m7zalnij",
+            "employmentType": "Full Time",
+            "minSalary": 120000,
+            "maxSalary": 165000,
+            "salaryPeriod": "annual",
+            "seniority": [
+                "Senior"
+            ],
+            "currency": "USD",
+            "locationRestrictions": [
+                "United States"
+            ],
+            "timezoneRestrictions": [
+                -10,
+                -9,
+                -8,
+                -7,
+                -6,
+                -5,
+                14
+            ],
+            "categories": [
+                "Account-Director",
+                "Client-Services-Director",
+                "Healthcare-Account-Director"
+            ],
+            "parentCategories": [
+                "Sales"
+            ],
+            "description": "<h3>About <a href=\"https://himalayas.app/companies/avalere-health\">Avalere Health</a>\n</h3><div>United by one profound purpose: to reach <b>EVERY PATIENT POSSIBLE</b>. At <a href=\"https://himalayas.app/companies/avalere-health\">Avalere Health</a>, we ensure every patient is identified, treated, supported, and cared for. Equally. Our Advisory, Medical, and Marketing teams come together – powerfully and intentionally – to forge unconventional connections, building a future where healthcare is not a barrier and no patient is left behind.</div><div>Achieving our mission starts with providing enriching, purpose-driven careers for our team that empower them to make a tangible impact on patient lives. We are committed to creating a culture where our employees are empowered to bring their whole selves to work and tap into the power of diverse backgrounds and skillsets to play a part in making a difference for every patient, everywhere. </div><div>Our flexible approach to working allows our global teams to decide where they want to work, whether in-office or at home based on team and client need. Major city hubs in London, Manchester, Washington, D.C., and New York, and smaller offices globally, serve as collaboration hubs allowing our teams to come together when it matters. Homeworkers are equally supported, with dedicated social opportunities and resources.  </div><div>Our inclusive culture is at the heart of everything we do. We proudly support our employees in bringing their whole selves to work with our six Employee Network Groups – Diverse Ability, Family, Gender, LGBTQ+, Mental Health, and Race/Ethnicity. These groups provide opportunities to promote diversity, equity, and inclusion and to connect, learn, and socialise through regular meetings and programs of activity. We are an accredited Fertility Friendly employer with our Fertility Policy, enhanced parental leave, and culture of flexibility ensuring every employee feels supported across their family planning journey and can work in a way that suits their family’s needs. </div><div>We are deeply invested in supporting professional growth for our employees through day-to-day career experiences, access to thousands of on-demand training sessions, regular career conversations, and the opportunity for global, cross-capability career moves.  </div><div>We take pride in being part of the Disability Confident Scheme. This helps make sure you can be interviewed fairly if you have a disability, long term health condition, or are neurodiverse. If you'd like to apply and need adjustments made, you can let us know in your application.</div><h3>About the role</h3><div>This position interfaces with the client and the client services team to provide strategic direction and support on client accounts. The Senior Account Director manages and leads the client services team to effectively execute the strategic direction for client projects.  The Senior Account Director manages the client services team across single or multiple clients. This position works directly with the client to ensure goals and objectives are being met. The Senior Account Director takes ownership of the campaign process from inception to completion. The role may also be responsible for supervising client services direct reports on a day-to-day basis.</div><h3>What you'll do</h3><ul>\n<li>Independently maintains relationship with client to strategic support and direction</li>\n<li>Mentors, manages, and leads client services direct reports to ensure client deliverables are strategically on target and implemented on time and within budget</li>\n<li>Primary contact between the client and internal agency team, working to ensure brand/medical education strategy is effectively communicated and understood by team members</li>\n<li>Has a full understanding of the clients brand, therapeutic area and objectives</li>\n<li>Uses independent judgment and discretion to act as a bridge between the client and brand/medical education strategy</li>\n<li>Supervises client services team members</li>\n<li>Manages day to day client service business to ensure projects are completed on time and within budget</li>\n<li>Ability to anticipate client needs and make recommendations</li>\n<li>Simultaneously handles multiple projects and clients under pressure and tight deadlines</li>\n<li>Works with multiple departments to ensure overall quality control of projects, including providing meaningful input as to employee performance and other issues within the agency</li>\n<li>Constantly communicates with all departments, providing necessary project updates</li>\n<li>Performs administrative tasks necessary to meet client deliverables</li>\n<li>Attends meetings to discuss client projects and give status updates</li>\n<li>Up to 25% travel</li>\n<li>Performs other duties as assigned</li>\n</ul><h3>About you</h3><ul>\n<li>10+ years of agency account management experience, with at least 5 years of pharmaceutical advertising experience. Digital background required managing websites.</li>\n<li>BA/BS degree required</li>\n<li>Must possess a deep and thorough understanding of the pharma/healthcare advertising industry, including new product launches</li>\n<li>DAOR experience strongly preferred</li>\n<li>Experience leading digital marketing initiatives</li>\n<li>Strong digital omni-channel background</li>\n<li>Demonstrated effectiveness in managing multiple clients across an organization and agency partners</li>\n<li>Marketing acumen and demonstrated experience in leading an integrated agency team in brand planning, budget development, execution and measurement</li>\n<li>Demonstrated success at developing valued relationships with senior-level clients, and building relationships across all client levels</li>\n<li>Demonstrated success as strategic partner to clients</li>\n<li>Demonstrated presentation, verbal, written and communication skills</li>\n<li>Must demonstrate hands-on proficiency in developing and delivering presentations in PowerPoint</li>\n</ul><h3>What we can offer</h3><div>You will receive a 401K plan with an employer match contribution up to 4% (immediately vested), as well as life insurance, disability coverage, and medical, dental, and vision plans for peace of mind. Enjoy flexible working arrangements, including hybrid and remote work, along with the option to work from anywhere across the globe two weeks each year. We provide 20 vacation days plus one personal well-being day, recognise 9 public holidays, along with gifted end-of-year holidays and an early Summer Friday finish in June, July, and August. </div><div>Access free counselling through our employee assistance program and personalized health support. Our enhanced maternity, paternity, family leave, and fertility policies provide support across every stage of your family-planning journey. You can also benefit from continuous opportunities to professionally develop with on-demand training, support, and global mobility opportunities across the business.  </div><div>\n<b>We encourage all applicants to read our </b>candidate privacy notice<b>before applying to <a href=\"https://himalayas.app/companies/avalere-health\">Avalere Health</a>.</b>\n</div><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+            "pubDate": 1795607780,
+            "expiryDate": 1800791780,
+            "applicationLink": "https://himalayas.app/companies/avalere-health/jobs/senior-account-director?utm_source=api",
+            "guid": "https://himalayas.app/companies/avalere-health/jobs/senior-account-director"
+        },
+        {
+            "title": "KIP Spring 2027 -  Ballot Measures Team Intern - Ballotpedia",
+            "excerpt": "The Koch Internship Program (KIP) is a paid experiential learning program run by Stand Together Fellowships that offers professional development, leadership training, and meaningful work experience at non-profits tackling some of our nation's most pressing policy challenges all over the United States.",
+            "companyName": "Stand Together",
+            "companySlug": "stand-together",
+            "companyLogo": "https://cdn-images.himalayas.app/qgpszzq1wq58tq2ruz3uljwx88lt",
+            "employmentType": "Intern",
+            "minSalary": 5500,
+            "maxSalary": 7500,
+            "salaryPeriod": "annual",
+            "seniority": [
+                "Entry-level"
+            ],
+            "currency": "USD",
+            "locationRestrictions": [
+                "United States"
+            ],
+            "timezoneRestrictions": [
+                -10,
+                -9,
+                -8,
+                -7,
+                -6,
+                -5,
+                14
+            ],
+            "categories": [
+                "Research",
+                "Policy-Research",
+                "Editorial",
+                "Public-Policy"
+            ],
+            "parentCategories": [],
+            "description": "<div>\n<strong>The Koch Internship Program (KIP) </strong>is a paid experiential learning program run by <a href=\"https://himalayas.app/companies/stand-together\">Stand Together</a> Fellowships that offers professional development, leadership training, and meaningful work experience at non-profits tackling some of our nation's most pressing policy challenges all over the United States. Early-career professionals including undergraduate/graduate/law students and recent graduates are encouraged to apply. Eligible candidates will be geographically located in and authorized to work in the United States through the duration of the program. Successful candidates will interview with both our non-profit partner organizations and <a href=\"https://himalayas.app/companies/stand-together\">Stand Together</a> Fellowships staff, so we strongly encourage you to begin the admissions process early!</div><h3>About Ballotpedia</h3><div>Ballotpedia is a mission-driven organization dedicated to providing Americans with accurate, relevant, and reliable information about politics, elections, and public policy. Our goal is to close the ballot information gap and help voters make informed decisions. We value innovation, humility, hunger, structure-first approaches, mission-driven mindsets, and the ability to understand the perspectives of others, and we are committed to continuously improving our offerings to better serve our audiences, readers, and candidates.</div><div>\n<h3>Role description</h3>\n<div>As an intern, you will go through a similar onboarding experience to full-time Ballotpedia employees. You will learn how to code the Ballotpedia website, be oriented to Ballotpedia’s style guide, learn about what we do to prevent and detect bias in our resources, and much more. Following orientation, you will join the Ballot Measures Team, working alongside full-time staff writers and researchers on ballot measure-related research, analysis, and coverage.</div>\n<div><strong>As a Ballotpedia Ballot Measures Team intern, you may:</strong></div>\n<ul>\n<li>be embedded in our Ballot Measures Team and work directly with Editorial staff members;</li>\n<li>research and write about ballot measures;</li>\n<li>assist our teams in news tracking, primary source monitoring, research, data entry, error and quality management, and other election data-related projects;</li>\n<li>conduct other detailed research and analysis projects related to ballot measures;</li>\n<li>participate in brainstorming sessions and planning meetings with experienced staff members; and</li>\n<li>assist with metrics and reporting on data collection.</li>\n</ul>\n<h3>Environment</h3>\n<div>\n<strong>Ballotpedia interns will work remotely, as all Ballotpedia staff work remotely.</strong> To join Ballotpedia, you must have a well-functioning computer with Internet access. Ballotpedia uses Google Applications (Gmail, Google Calendar, Drive and more) to accomplish our goals. Some familiarity with Google Applications is helpful.</div>\n</div><div>\n<a href=\"https://himalayas.app/companies/stand-together\">Stand Together</a> Fellowships believes that diversity in experiences, perspectives, knowledge and ideas fuels creativity, broadens knowledge, and helps drive success. Our admissions office treats all program participants and applicants with honesty, dignity, respect and sensitivity. We welcome all qualified applicants regardless of color, race, religion, religious creed, sex, gender or gender identity, gender expression, sexual orientation, national origin, citizenship, ethnicity, ancestry, age, physical disability, mental disability, medical condition, pregnancy (including medical needs which may arise from pregnancy, childbirth, or related medical conditions), military and veteran status, genetic information, marital or familial status, political affiliation, or any other legally recognized protected basis under federal, state or local laws, regulations or ordinances. </div><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+            "pubDate": 1795607774,
+            "expiryDate": 1800791774,
+            "applicationLink": "https://himalayas.app/companies/stand-together/jobs/kip-spring-2027-ballot-measures-team-intern-ballotpedia?utm_source=api",
+            "guid": "https://himalayas.app/companies/stand-together/jobs/kip-spring-2027-ballot-measures-team-intern-ballotpedia"
+        },
+        {
+            "title": "Senior Software Engineer-.Net, VBA, MS SQL Server",
+            "excerpt": "Overview Cotiviti is a leading solutions and analytics company that leverages unparalleled clinical and financial datasets to deliver deep insight into the performance of the healthcare system.",
+            "companyName": "Cotiviti",
+            "companySlug": "cotiviti",
+            "companyLogo": "https://cdn-images.himalayas.app/trgadbn304p1z5k3mse5mdsd6avg",
+            "employmentType": "Other",
+            "minSalary": 111000,
+            "maxSalary": 145000,
+            "salaryPeriod": "annual",
+            "seniority": [
+                "Senior"
+            ],
+            "currency": "USD",
+            "locationRestrictions": [
+                "United States"
+            ],
+            "timezoneRestrictions": [
+                -10,
+                -9,
+                -8,
+                -7,
+                -6,
+                -5,
+                14
+            ],
+            "categories": [
+                "Software-Engineer",
+                "Software-Developer",
+                ".NET-Developer",
+                "SQL-Developer"
+            ],
+            "parentCategories": [
+                "Developer"
+            ],
+            "description": "<h3>Overview</h3><p><a href=\"https://himalayas.app/companies/cotiviti\">Cotiviti</a> is a leading solutions and analytics company that leverages unparalleled clinical and financial datasets to deliver deep insight into the performance of the healthcare system. These insights uncover new opportunities for healthcare organizations to collaborate to improve their financial performance, reduce inefficiency, and improve healthcare quality.</p><p>The Sr Software Engineer is primarily responsible for the support of the existing software applications and enhance software components deployed in the <a href=\"https://himalayas.app/companies/cotiviti\">Cotiviti</a> product suite. The successful candidate will be required to collaborate effectively with senior developers, offshore development team members, business owners, project management, and other internal stakeholders.</p><h3>Responsibilities</h3><ul>\n<li>Support and enhance high quality software modules for the <a href=\"https://himalayas.app/companies/cotiviti\">Cotiviti</a> product suite</li>\n<li>Analyze and resolve software related issues originated from internal or external customers</li>\n<li>Documents the specifications, design, features, and operation of applications prior to production roll out.</li>\n<li>Demonstrates proficient working knowledge of the primary discipline and a developing knowledge of related disciplines.</li>\n<li>Executes solutions enhancements to improve performance / availability.</li>\n<li>Communicates technical and operational issues to both engineering and business leadership in a timely manner.</li>\n<li>Ensure that all technology standards are adhered to while developing systems.</li>\n<li>Explores new ideas and makes innovative contributions to existing processes or systems which improve efficiency and results.</li>\n<li>Continuously improves and enhances knowledge of new technologies as selected and integrated into the <a href=\"https://himalayas.app/companies/cotiviti\">Cotiviti</a> product suite</li>\n<li>Execute all appropriate facets of the <a href=\"https://himalayas.app/companies/cotiviti\">Cotiviti</a> Software Development Lifecycle with a desire for continuous improvement</li>\n<li>Mentor other developers</li>\n<li>Complete all responsibilities as outlined on annual Performance Plan. Required</li>\n<li>Complete all special projects and other duties as assigned. Required</li>\n<li>Must be able to perform duties with or without reasonable accommodation. Required</li>\n<li>Complete all responsibilities as outlined in the annual performance review and/or goal setting.</li>\n<li>Complete all special projects and other duties as assigned.</li>\n<li>Must be able to perform duties with or without reasonable accommodation.</li>\n</ul><p>This job description is intended to describe the general nature and level of work being performed and is not to be construed as an exhaustive list of responsibilities, duties and skills required. This job description does not constitute an employment agreement and is subject to change as the needs of <a href=\"https://himalayas.app/companies/cotiviti\">Cotiviti</a> and requirements of the job change.</p><h3>Qualifications</h3><ul>\n<li>BS or MS Computer Science, Information Technology, Information Systems, or equivalent work experience.</li>\n<li>4-5 years of industry experience</li>\n<li>Must have 2+ years’ Healthcare data experience</li>\n<li>Advanced understanding of OOP, Analysis, and Design</li>\n<li>Working knowledge of RDBMS such as SQL Server, MySQL, Oracle, or SQL programming skills</li>\n<li>4-5 years’ experience with software engineering best practices such as continuous integration, unit testing, refactoring, and code reviews</li>\n<li>Understanding of prevalent Software Development Lifecycle Methodologies with specific exposure or participation in Agile/Scrum techniques</li>\n<li>4-5 years' experience with .Net Framework or VBA</li>\n<li>4-5 years' experience with scripting languages: VBScript or Powershell</li>\n<li>Optimization and tuning of SQL queries, stored procedures, and triggers</li>\n<li>4-5 years’ experience with databases: Microsoft SQL Serverpreferred  <ul>\n<li>Proficiency in working with large data sets</li>\n<li>Optimization and tuning of SQL queries, stored procedures, and views</li>\n<li>SSIS experience a nice to have</li>\n</ul>\n</li>\n<li>Ability to execute on project deliverables in a dynamic, fast paced environment within estimated timelines</li>\n<li>Good written and oral communication skills</li>\n</ul><h3>Mental Requirements:</h3><ul>\n<li>\n<strong>Critical Thinking:</strong> Analyze problems objectively and make sound, data-driven decisions.</li>\n<li>\n<strong>Attention to Detail:</strong> Maintain accuracy across code, data, and deliverables.</li>\n<li>\n<strong>Quantitative Skills:</strong> Apply strong analytical and statistical methods to solve problems.</li>\n<li>\n<strong>Data Interpretation:</strong> Extract actionable insights from data, metrics, and visualizations.</li>\n<li>\n<strong>Communication:</strong> Clearly explain technical concepts to both technical and non-technical audiences.</li>\n<li>\n<strong>Learning Agility:</strong> Quickly adopt new tools, technologies, and best practices.</li>\n<li>\n<strong>Resilience:</strong> Adapt to shifting priorities and deliver under pressure.</li>\n<li>\n<strong>Integrity:</strong> Handle data responsibly and uphold engineering and ethical standards.</li>\n</ul><h3>Physical Requirements and Working Conditions:</h3><ul>\n<li>Remaining in a stationary position, often standing or sitting for prolonged periods.</li>\n<li>Repeating motions that may include the wrists, hands, and/or fingers.</li>\n<li>This is a remote position - must be able to provide a dedicated, secure work area with reliable hi-speed internet.</li>\n</ul><p><strong><em>Base compensation ranges from $111,000 to $145,000 per year. Specific offers are determined by various factors, such as experience, education, skills, certifications, and other business needs. </em></strong></p><p><strong><em><a href=\"https://himalayas.app/companies/cotiviti\">Cotiviti</a> offers team members a competitive benefits package to address a wide range of personal and family needs, including medical, dental, vision, disability, and life insurance coverage, 401(k) savings plans, paid family leave, 9 paid holidays per year, and 17-27 days of Paid Time Off (PTO) per year, depending on specific level and length of service with <a href=\"https://himalayas.app/companies/cotiviti\">Cotiviti</a>. For information about our benefits package, please refer to our </em></strong><strong><em>Careers page.</em></strong></p><p><strong><em>This role is based remotely and all interviews will be conducted virtually.</em></strong></p><h3>Date of posting: 11/18/2026</h3><p>Applications are assessed on a rolling basis. We anticipate that the application window will close on 1/18/2027, but the application window may change depending on the volume of applications received or close immediately if a qualified candidate is selected.</p><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+            "pubDate": 1795607747,
+            "expiryDate": 1800791747,
+            "applicationLink": "https://himalayas.app/companies/cotiviti/jobs/senior-software-engineer-net-vba-ms-sql-server?utm_source=api",
+            "guid": "https://himalayas.app/companies/cotiviti/jobs/senior-software-engineer-net-vba-ms-sql-server"
+        },
+        {
+            "title": "New Enterprise Business Development Director",
+            "excerpt": "New Enterprise Business Development Director Needed Celero Commerce is looking for a New Enterprise Business Development Director to drive new business growth within the middle-market and enterprise merchant space!",
+            "companyName": "Celero Commerce",
+            "companySlug": "celero-commerce",
+            "companyLogo": "https://cdn-images.himalayas.app/vnrt2fypyskxq2wq7sxhghhizwmp",
+            "employmentType": "Full Time",
+            "minSalary": null,
+            "maxSalary": null,
+            "salaryPeriod": "annual",
+            "seniority": [
+                "Director"
+            ],
+            "currency": null,
+            "locationRestrictions": [
+                "United States"
+            ],
+            "timezoneRestrictions": [
+                -10,
+                -9,
+                -8,
+                -7,
+                -6,
+                -5,
+                14
+            ],
+            "categories": [
+                "Business-Development-Director",
+                "Enterprise-Sales-Director",
+                "Sales-Director",
+                "Payments-Business-Development"
+            ],
+            "parentCategories": [
+                "Sales"
+            ],
+            "description": "<h3>New Enterprise Business Development Director Needed</h3><p><a href=\"https://himalayas.app/companies/celero-commerce\">Celero Commerce</a> is looking for a New Enterprise Business Development Director to drive new business growth within the middle-market and enterprise merchant space! In this role, you will be responsible for identifying and developing new business opportunities, building a strong sales pipeline, and closing high-value deals that expand our market presence and generate long-term revenue growth. Our ideal candidate has extensive experience in the payments industry, a proven track record of securing complex enterprise-level deals, and the ability to develop relationships with key decision-makers. If you feel you are the right fit for this position, we look forward to hearing from you!</p><h3>Responsibilities:</h3><ul>\n<li>Develop and execute strategies to acquire new middle-market and enterprise merchant relationships, identifying target markets, opportunities, and growth initiatives.</li>\n<li>Build and manage a qualified sales pipeline through outbound prospecting, referrals, industry relationships, and strategic partnerships.</li>\n<li>Lead the full sales cycle, from initial prospecting and relationship development through negotiations, contract execution, and closing.</li>\n<li>Identify and pursue high-value merchant opportunities across card-present and card-not-present payment environments.</li>\n<li>Establish and maintain relationships with key decision-makers, including senior executives and other stakeholders within prospective client organizations.</li>\n<li>Collaborate with internal Product, Marketing, Risk, Operations, and Sales Engineering teams to develop payment solutions that meet the needs of enterprise clients.</li>\n<li>Help establish and refine repeatable processes for pursuing, closing, and onboarding large merchant opportunities.</li>\n<li>Represent the company at industry conferences, trade shows, and networking events to promote our payment solutions and develop new business relationships.</li>\n<li>Monitor industry trends, competitive activity, and emerging opportunities to identify potential growth opportunities.</li>\n<li>Maintain accurate pipeline reporting, revenue forecasts, and business development updates for executive leadership.</li>\n<li>Support business development opportunities across additional sales channels while building a pipeline of larger enterprise accounts.</li>\n</ul><h3>Experience &amp; Requirements:</h3><ul>\n<li>Extensive experience in business development or enterprise sales within the merchant services, payment processing, or financial technology industry.</li>\n<li>Proven track record of identifying, developing, and closing complex, high-value deals with middle-market and enterprise clients.</li>\n<li>Strong understanding of payment processing solutions, including card-present and card-not-present transactions.</li>\n<li>Experience navigating complex sales cycles involving multiple decision-makers, contract negotiations, and customized solutions.</li>\n<li>Demonstrated ability to independently generate new business opportunities through proactive prospecting, networking, and relationship development.</li>\n<li>Knowledge of payment gateways, ERP integrations, and enterprise payment solutions preferred.</li>\n<li>Strong negotiation, presentation, and communication skills, with the ability to engage confidently with executive-level stakeholders.</li>\n<li>Ability to collaborate effectively with cross-functional teams to develop solutions and support successful client implementations.</li>\n<li>Strategic mindset with a hands-on approach to prospecting, relationship development, and closing opportunities.</li>\n<li>Strong organizational and analytical skills, with the ability to manage multiple opportunities, maintain accurate forecasts, and prioritize activities effectively.</li>\n<li>Willingness and ability to travel for client meetings, industry conferences, and other business development opportunities.</li>\n<li>We are currently unable to consider applicants residing in California, Colorado, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, New Jersey, New York, Rhode Island, Vermont, or Washington.</li>\n</ul><h3>Reports to: Head of ISO/Agent Channel</h3><h3>Employment type: Full-time; Exempt</h3><p>Benefits: We provide a comprehensive benefits package including health insurance, dental, vision, life insurance, identity theft protection, paid time off, and 401(k).</p><p>C<em>elero Commerce provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation and training.</em></p><p><em>Please Note: <a href=\"https://himalayas.app/companies/celero-commerce\">Celero Commerce</a> participates in E-Verify and performs background checks on all new hires. We will provide the Social Security Administration (SSA) and, if necessary, the Department of Homeland Security (DHS), with information from each new employee’s Form I-9 to confirm work authorization.</em></p><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+            "pubDate": 1795607740,
+            "expiryDate": 1800791740,
+            "applicationLink": "https://himalayas.app/companies/celero-commerce/jobs/new-enterprise-business-development-director?utm_source=api",
+            "guid": "https://himalayas.app/companies/celero-commerce/jobs/new-enterprise-business-development-director"
+        }
+    ]
+}

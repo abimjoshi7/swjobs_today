@@ -1,7 +1,7 @@
 {
   "jobs": [
     {
-      "id": 1,
+      "id": "1",
       "source": "himalayas",
       "title": "Staff Software Engineer",
       "company": "Example Labs",
@@ -10,7 +10,7 @@
       "skills": ["Rust", "PostgreSQL", "AWS"]
     },
     {
-      "id": 2,
+      "id": "2",
       "source": "remotive",
       "title": "Backend Engineer",
       "company": "Cloud Co",
@@ -19,7 +19,7 @@
       "skills": ["Go", "Kubernetes"]
     },
     {
-      "id": 3,
+      "id": "3",
       "source": "himalayas",
       "title": "Registered Nurse",
       "company": "City Hospital",
@@ -28,7 +28,7 @@
       "skills": ["Patient Care", "EMR"]
     },
     {
-      "id": 4,
+      "id": "4",
       "source": "remotive",
       "title": "Senior Rust Developer",
       "company": "Systems Inc",
@@ -37,7 +37,7 @@
       "skills": ["Rust", "Linux"]
     },
     {
-      "id": 5,
+      "id": "5",
       "source": "fixture",
       "title": "Marketing Manager",
       "company": "Ad Agency",
@@ -46,7 +46,7 @@
       "skills": ["SEO", "Content"]
     },
     {
-      "id": 6,
+      "id": "6",
       "source": "himalayas",
       "title": "Software Engineer",
       "company": "Future Post",

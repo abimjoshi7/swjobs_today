@@ -1,0 +1,47 @@
+{
+  "updatedAt": 1795607799,
+  "limit": 2,
+  "totalCount": 2,
+  "jobs": [
+    {
+      "title": "Senior Software Engineer",
+      "companyName": "Example Labs",
+      "companySlug": "example-labs",
+      "employmentType": "Full Time",
+      "minSalary": 150000,
+      "maxSalary": 200000,
+      "salaryPeriod": "annual",
+      "seniority": ["Senior"],
+      "currency": "USD",
+      "locationRestrictions": ["United States"],
+      "timezoneRestrictions": [-8, -5],
+      "categories": ["Rust", "Backend", "PostgreSQL"],
+      "parentCategories": ["Software-Engineering"],
+      "description": "Build APIs in Rust.",
+      "pubDate": 1795607799,
+      "expiryDate": 1800791798,
+      "applicationLink": "https://himalayas.app/companies/example-labs/jobs/senior-software-engineer?utm_source=api",
+      "guid": "https://himalayas.app/companies/example-labs/jobs/senior-software-engineer"
+    },
+    {
+      "title": "Registered Nurse",
+      "companyName": "City Hospital",
+      "companySlug": "city-hospital",
+      "employmentType": "Full Time",
+      "minSalary": null,
+      "maxSalary": null,
+      "salaryPeriod": "annual",
+      "seniority": [],
+      "currency": null,
+      "locationRestrictions": ["United States"],
+      "timezoneRestrictions": [],
+      "categories": ["Patient-Care"],
+      "parentCategories": [],
+      "description": "Clinical care.",
+      "pubDate": 1795600000,
+      "expiryDate": 1800791798,
+      "applicationLink": "https://himalayas.app/companies/city-hospital/jobs/registered-nurse?utm_source=api",
+      "guid": "https://himalayas.app/companies/city-hospital/jobs/registered-nurse"
+    }
+  ]
+}

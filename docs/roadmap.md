@@ -91,10 +91,10 @@ Job search noise is the problem — stale listings, low-trust boards, and repeat
 
 **Outcome:** `sync` pulls from one compliant API; `today` uses stored jobs within 24h.
 
-- [ ] `Source` trait + one adapter
-- [ ] Persist synced jobs; sweeper ignores/deletes expired
-- [ ] Fixture-based adapter tests; manual live sync documented
-- [ ] Short ADR: why this source, rate limits, tech filter rules
+- [x] `Source` trait + one adapter
+- [x] Persist synced jobs; sweeper ignores/deletes expired
+- [x] Fixture-based adapter tests; manual live sync documented
+- [x] Short ADR: why this source, rate limits, tech filter rules
 
 ### Phase 3 — Answer brain
 

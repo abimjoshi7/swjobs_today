@@ -1,7 +1,7 @@
 use std::collections::HashSet;
 
 use chrono::{DateTime, TimeDelta, Utc};
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 
 use crate::profile::Profile;
 
@@ -20,26 +20,9 @@ const TECH_TITLE_KEYWORDS: &[&str] = &[
     "platform",
 ];
 
-/// On-disk fixture row. `age_hours` is relative to a provided `now` so fixtures stay fresh.
-#[derive(Debug, Clone, Deserialize)]
-struct FixtureJob {
-    id: u16,
-    source: String,
-    title: String,
-    company: String,
-    url: String,
-    age_hours: i64,
-    skills: Vec<String>,
-}
-
-#[derive(Debug, Clone, Deserialize)]
-struct FixtureFile {
-    jobs: Vec<FixtureJob>,
-}
-
-#[derive(Debug, Clone, PartialEq, Eq)]
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
 pub struct Job {
-    pub id: u16,
+    pub id: String,
     pub source: String,
     pub title: String,
     pub company: String,
@@ -87,33 +70,50 @@ pub fn rank_today(jobs: &[Job], profile: &Profile, now: DateTime<Utc>) -> Vec<(J
     ranked
 }
 
-/// Load bundled fixtures; `posted_at = now - age_hours`.
-pub fn load_fixture_jobs(now: DateTime<Utc>) -> Result<Vec<Job>, serde_json::Error> {
-    let file: FixtureFile = serde_json::from_str(include_str!("fixtures/jobs.json"))?;
-    Ok(file
-        .jobs
-        .into_iter()
-        .map(|row| Job {
-            id: row.id,
-            source: row.source,
-            title: row.title,
-            company: row.company,
-            url: row.url,
-            posted_at: now - TimeDelta::hours(row.age_hours),
-            skills: row.skills,
-        })
-        .collect())
-}
-
 #[cfg(test)]
 mod test {
     use chrono::TimeZone;
+    use serde::Deserialize;
 
     use super::*;
 
+    /// On-disk fixture row. `age_hours` is relative to a provided `now` so fixtures stay fresh.
+    #[derive(Debug, Clone, Deserialize)]
+    struct FixtureJob {
+        id: String,
+        source: String,
+        title: String,
+        company: String,
+        url: String,
+        age_hours: i64,
+        skills: Vec<String>,
+    }
+
+    #[derive(Debug, Clone, Deserialize)]
+    struct FixtureFile {
+        jobs: Vec<FixtureJob>,
+    }
+
+    fn load_fixture_jobs(now: DateTime<Utc>) -> Result<Vec<Job>, serde_json::Error> {
+        let file: FixtureFile = serde_json::from_str(include_str!("fixtures/jobs.json"))?;
+        Ok(file
+            .jobs
+            .into_iter()
+            .map(|row| Job {
+                id: row.id,
+                source: row.source,
+                title: row.title,
+                company: row.company,
+                url: row.url,
+                posted_at: now - TimeDelta::hours(row.age_hours),
+                skills: row.skills,
+            })
+            .collect())
+    }
+
     fn sample_job(title: &str, skills: &[&str], posted_at: DateTime<Utc>) -> Job {
         Job {
-            id: 1,
+            id: "1".to_owned(),
             source: "himalayas".to_owned(),
             title: title.to_owned(),
             company: "Example".to_owned(),
@@ -121,39 +121,6 @@ mod test {
             posted_at,
             skills: skills.iter().map(|s| (*s).to_owned()).collect(),
         }
-    }
-
-    // Intentionally red / exploratory cases — keep ignored while edge tests cover behavior.
-    #[test]
-    #[ignore = "intentionally failing exploratory test"]
-    fn is_tech_test() {
-        let result = Job {
-            id: 1,
-            source: "Himalayas".to_owned(),
-            title: "Staff Software Engineer".to_owned(),
-            company: "Netflix".to_owned(),
-            posted_at: Utc::now(),
-            skills: vec!["Rust".to_owned(), "Database".to_owned()],
-            url: "https://www.netflix.com/jobs".to_owned(),
-        }
-        .is_tech();
-        assert!(result);
-    }
-
-    #[test]
-    #[ignore = "intentionally failing exploratory test"]
-    fn is_fresh_test() {
-        let result = Job {
-            id: 1,
-            source: "Himalayas".to_owned(),
-            title: "Staff Software Engineer".to_owned(),
-            company: "Netflix".to_owned(),
-            posted_at: Utc.with_ymd_and_hms(2026, 9, 30, 12, 10, 23).unwrap(),
-            skills: vec!["Rust".to_owned(), "Database".to_owned()],
-            url: "https://www.netflix.com/jobs".to_owned(),
-        }
-        .is_fresh(Utc::now());
-        assert!(result);
     }
 
     #[test]
@@ -226,9 +193,9 @@ mod test {
 
         // Non-tech (#3, #5), stale tech (#4), future (#6) dropped; #1 and #2 remain.
         assert_eq!(ranked.len(), 2);
-        assert_eq!(ranked[0].0.id, 1); // Rust + PostgreSQL overlap
+        assert_eq!(ranked[0].0.id, "1"); // Rust + PostgreSQL overlap
         assert!(ranked[0].1 > ranked[1].1);
-        assert_eq!(ranked[1].0.id, 2); // Go/K8s — zero overlap with profile
+        assert_eq!(ranked[1].0.id, "2"); // Go/K8s — zero overlap with profile
     }
 
     #[test]
